@@ -1,0 +1,89 @@
+.wrapper-hero{
+    background-image: url(https://images.unsplash.com/photo-1506972905718-359e73c4c49a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem;
+}
+.title{
+    color: white;
+    font-weight: bolder;
+}
+@media (max-width: 600px) {
+    .title{
+        color: white;
+        font-size: 2.5rem;
+    }
+}
+.subtitle{
+    font-size: 2rem;
+    margin: 1.2rem 0;
+}
+.color-red{
+    color:#a80f0c;
+}
+.text-center{
+    text-align: center;
+}
+.justify-content{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-redesSociales{
+    display: flex;
+    justify-content: center;
+
+}
+.img-redes{
+    width: 1.5rem;
+    margin: 1rem;
+}
+.col{
+ display: flex;
+ justify-content: center;
+}
+
+.card{
+    border: none;
+    text-align: center;
+}
+.card-img-top{
+    width: 5rem;
+}
+.card-img-top:hover{
+    width: 6rem;
+}
+.card .card-body .card-title{
+    font-size: .9rem;
+}
+.wrapper-options{
+    /* background-color: #cdc9c3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  1rem 4rem;
+}
+@media (max-width: 600px) {
+    .wrapper-options{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:  1rem 4rem;
+    }
+}
+.card-footer{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.card-footer .wrapper-img .img{
+    width: 2rem;
+}
+.card-footer .option-text{
+    font-size: .8rem;
+    font-weight: bold;
+}
